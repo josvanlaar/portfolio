@@ -13,6 +13,7 @@
 .bg-parabellum-main,
 
 .bg-submarine-main,
+.bg-vibepass-main,
 .bg-medalofhonor-main,
 .bg-empires-main,
 .bg-chateau-main,
@@ -64,6 +65,9 @@
 
 .bg-submarine-main {
 	background-image: url("../content/backgrounds/img_bg_submarine_cover.jpg");
+}
+.bg-vibepass-main {
+	background-image: url("../content/backgrounds/img_bg_vibe_pass_cover.jpg");
 }
 .bg-medalofhonor-main {
 	background-image: url("../content/backgrounds/img_bg_medal_of_honor_cover.jpg");
@@ -132,6 +136,7 @@
 .bg-parabellum-main:hover::after, 
 
 .bg-submarine-main:hover::after,
+.bg-vibepass-main:hover::after,
 .bg-medalofhonor-main:hover::after,
 .bg-empires-main:hover::after,
 .bg-chateau-main:hover::after,
@@ -193,6 +198,7 @@
 .bg-parabellum,
 
 .bg_submarine,
+.bg_vibepass,
 .bg_medalofhonor,
 .bg_empires,
 .bg_chateau,
@@ -240,6 +246,9 @@
 
 .bg-submarine{
 	background-image: url("../content/backgrounds/img_bg_submarine.jpg");
+}
+.bg-vibepass{
+	background-image: url("../content/backgrounds/img_bg_vibe_pass.jpg");
 }
 .bg-medalofhonor{
 	background-image: url("../content/backgrounds/img_bg_medal_of_honor.jpg");
@@ -344,6 +353,14 @@
 	background-image: url("../logo/img_logo_submarine.png");
 	background-repeat: no-repeat;
 	background-size: 202px 60px;
+    background-position: center;
+}
+.header-logo-vibepass{
+	width: 250px;
+	border: 0px solid rgba(255, 140, 0, .5); /* Semi-transparent orange border*/
+	background-image: url("../logo/img_logo_vibe_pass.png");
+	background-repeat: no-repeat;
+	background-size: 80%;
     background-position: center;
 }
 .header-logo-medalofhonor{

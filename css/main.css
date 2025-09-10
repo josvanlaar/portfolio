@@ -37,3 +37,49 @@ p {
 	font-weight: normal;
 	text-transform: none;
 }
+
+.about-icon-resume{
+	background-image: url('../logo/img_about_resume.png');
+}
+
+.about-icon-artstation{
+	background-image: url('../logo/img_about_artstation.png');
+}
+
+.about-icon-linkedin{
+	background-image: url('../logo/img_about_linkedin.png');
+}
+
+.logo_and_icons{
+	display: flex;
+	justify-content: space-between;
+}
+
+.about-icon,
+.about-icon-resume,
+.about-icon-artstation,
+.about-icon-linkedin{
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 90px;
+	height: 90px;
+	transition: background-image 0.3s ease-in-out;
+	text-decoration: none;
+}
+
+.about-icon-resume:hover{
+	background-image: url('../logo/img_about_resume_hover.png');
+}
+
+.about-icon-artstation:hover{
+	background-image: url('../logo/img_about_artstation_hover.png');
+}
+
+.about-icon-linkedin:hover{
+	background-image: url('../logo/img_about_linkedin_hover.png');
+}
+
+.about-icon-row {
+	display: flex;
+	justify-content: flex-end;
+}

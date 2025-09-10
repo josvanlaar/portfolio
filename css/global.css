@@ -28,16 +28,19 @@ td.media-column {
   vertical-align: top;
 }
 
+a:link,
+a:link::after,
+.link{
+	color: #FFAE4C;
+}
+
 	/* colors */
 .header-title,
 .desc-text-color,
 .desc-text-color-title,
 .desc-text-color-italic,
 .breakdown-title,
-.nav-menu a:hover,
-a:link,
-a:link::after,
-.link
+.nav-menu a:hover
 {
 	color: #FF8C00;
 	/*color: magenta;*/
