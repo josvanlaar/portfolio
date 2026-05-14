@@ -107,11 +107,16 @@ td.about-photo{
 	background-image: url('../logo/img_about_itchio.png');
 }
 
+.about-icon-youtube{
+	background-image: url('../logo/img_about_youtube.png');
+}
+
 .about-icon,
 .about-icon-resume,
 .about-icon-artstation,
 .about-icon-linkedin,
-.about-icon-itchio{
+.about-icon-itchio,
+.about-icon-youtube{
 	background-size: contain;
     background-repeat: no-repeat;
 	width: 90px;
@@ -134,6 +139,10 @@ td.about-photo{
 
 .about-icon-itchio:hover{
 	background-image: url('../logo/img_about_itchio_hover.png');
+}
+
+.about-icon-youtube:hover{
+	background-image: url('../logo/img_about_youtube_hover.png');
 }
 
 .about-icon-row {

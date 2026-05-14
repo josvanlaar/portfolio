@@ -54,6 +54,10 @@ p {
 	background-image: url('../logo/img_about_itchio.png');
 }
 
+.about-icon-youtube{
+	background-image: url('../logo/img_about_youtube.png');
+}
+
 .logo_and_icons{
 	display: flex;
 	justify-content: space-between;
@@ -63,7 +67,8 @@ p {
 .about-icon-resume,
 .about-icon-artstation,
 .about-icon-linkedin,
-.about-icon-itchio{
+.about-icon-itchio,
+.about-icon-youtube{
 	background-size: contain;
     background-repeat: no-repeat;
 	width: 90px;
@@ -86,6 +91,10 @@ p {
 
 .about-icon-itchio:hover{
 	background-image: url('../logo/img_about_itchio_hover.png');
+}
+
+.about-icon-youtube:hover{
+	background-image: url('../logo/img_about_youtube_hover.png');
 }
 
 .about-icon-row {
