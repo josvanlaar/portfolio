@@ -12,6 +12,7 @@
 .bg-bulletrun-main,
 .bg-parabellum-main,
 
+.bg-superhost-main,
 .bg-submarine-main,
 .bg-vibepass-main,
 .bg-medalofhonor-main,
@@ -63,6 +64,10 @@
 	background-image: url("../content/backgrounds/img_bg_parabellum_cover.jpg");
 }
 
+/* PERSONAL */
+.bg-superhost-main {
+	background-image: url("../content/backgrounds/img_bg_superhost_cover.jpg");
+}
 .bg-submarine-main {
 	background-image: url("../content/backgrounds/img_bg_submarine_cover.jpg");
 }
@@ -102,6 +107,7 @@
 .bg-bulletrun-main::after,
 .bg-parabellum-main::after,
 
+.bg-superhost-main::after,
 .bg-submarine-main::after,
 .bg-medalofhonor-main::after,
 .bg-empires-main::after,
@@ -135,6 +141,7 @@
 .bg-bulletrun-main:hover::after,
 .bg-parabellum-main:hover::after, 
 
+.bg-superhost-main:hover::after,
 .bg-submarine-main:hover::after,
 .bg-vibepass-main:hover::after,
 .bg-medalofhonor-main:hover::after,
@@ -197,6 +204,7 @@
 .bg-bulletrun,
 .bg-parabellum,
 
+.bg_superhost,
 .bg_submarine,
 .bg_vibepass,
 .bg_medalofhonor,
@@ -244,6 +252,10 @@
 	background-image: url("../content/backgrounds/img_bg_parabellum.jpg");
 }
 
+
+.bg-superhost{
+	background-image: url("../content/backgrounds/img_bg_superhost.jpg");
+}
 .bg-submarine{
 	background-image: url("../content/backgrounds/img_bg_submarine.jpg");
 }
@@ -344,6 +356,15 @@
 	background-image: url("../logo/img_logo_parabellum.png");
 	background-repeat: no-repeat;
 	background-size: 60%;
+    background-position: center;
+}
+
+.header-logo-superhost{
+	width: 350px;
+	border: 0px solid rgba(255, 140, 0, .5); /* Semi-transparent orange border*/
+	background-image: url("../logo/img_logo_superhost.png");
+	background-repeat: no-repeat;
+	background-size: 100px 100px;
     background-position: center;
 }
 
