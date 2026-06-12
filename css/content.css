@@ -12,6 +12,7 @@
 .bg-bulletrun-main,
 .bg-parabellum-main,
 
+.bg-bob_replacements-main,
 .bg-superhost-main,
 .bg-submarine-main,
 .bg-vibepass-main,
@@ -65,6 +66,12 @@
 }
 
 /* PERSONAL */
+.bg-bob_replacements-main {
+	background-image: url("../content/backgrounds/img_bg_replacements_cover.jpg");
+}
+.bg-superhost-main {
+	background-image: url("../content/backgrounds/img_bg_replacements_cover.jpg");
+}
 .bg-superhost-main {
 	background-image: url("../content/backgrounds/img_bg_superhost_cover.jpg");
 }
@@ -107,6 +114,7 @@
 .bg-bulletrun-main::after,
 .bg-parabellum-main::after,
 
+.bg-bob_replacements-main::after,
 .bg-superhost-main::after,
 .bg-submarine-main::after,
 .bg-medalofhonor-main::after,
@@ -141,6 +149,7 @@
 .bg-bulletrun-main:hover::after,
 .bg-parabellum-main:hover::after, 
 
+.bg-bob_replacements-main:hover::after,
 .bg-superhost-main:hover::after,
 .bg-submarine-main:hover::after,
 .bg-vibepass-main:hover::after,
@@ -150,7 +159,8 @@
 .bg-berchtesgaden-main:hover::after,
 .bg-nostalgia-main:hover::after,
 .bg-yomi-main:hover::after,
-.bg-rs-main:hover::after {
+.bg-rs-main:hover::after 
+{
     opacity: 1;
 }
 
@@ -204,6 +214,7 @@
 .bg-bulletrun,
 .bg-parabellum,
 
+.bg_bob_replacements,
 .bg_superhost,
 .bg_submarine,
 .bg_vibepass,
@@ -253,6 +264,9 @@
 }
 
 
+.bg-bob_replacements{
+	background-image: url("../content/backgrounds/img_bg_replacements.jpg");
+}
 .bg-superhost{
 	background-image: url("../content/backgrounds/img_bg_superhost.jpg");
 }
@@ -356,6 +370,16 @@
 	background-image: url("../logo/img_logo_parabellum.png");
 	background-repeat: no-repeat;
 	background-size: 60%;
+    background-position: center;
+}
+
+
+.header-logo-bob_replacements{
+	width: 350px;
+	border: 0px solid rgba(255, 140, 0, .5); /* Semi-transparent orange border*/
+	background-image: url("../logo/img_logo_replacements.png");
+	background-repeat: no-repeat;
+	background-size: 200px 75px;
     background-position: center;
 }
 
